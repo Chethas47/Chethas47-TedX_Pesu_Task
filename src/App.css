@@ -1,0 +1,38 @@
+.body {
+	padding: 0;
+	margin: 0;
+}
+.LandingPage {
+	/* The image used */
+	background: url(./tedx-assets/Earth_Black_background.jpg);
+
+	/* Full height */
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	/* Center and scale the image */
+	background-position: right 0px bottom 240px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.ted-logo {
+	background: url(./tedx-assets/logo_black_horz.ico);
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	top: 3%;
+	left: 3%;
+	width: 260px;
+	height: 70px;
+}
+
+.countdown-logo {
+	background: url(./tedx-assets/Countdown_social_share_01\ -\ Black\ BG.ico);
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	bottom: 5%;
+	height: 100px;
+	width: 200px;
+}

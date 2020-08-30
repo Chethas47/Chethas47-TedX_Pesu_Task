@@ -1,0 +1,111 @@
+.LandingPage {
+	/* The image used
+	background: url(../tedx-assets/Earth_Black_background.jpg);
+
+	/* Full height */
+	/* width: 100%;
+	height: 100%; */
+
+	/* Center and scale the image */
+	/* background-position: right 0px bottom 240px;
+	background-size: cover;
+	background-attachment: fixed; */
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* .ted-logo {
+	background: url(../tedx-assets/logo_black_horz.png);
+	padding: 0px;
+	margin: 0px;
+}
+
+.ted-logo {
+	background: url(../tedx-assets/Countdown_social_share_01\ -\ Black\ BG.png);
+	padding: 0px;
+	margin: 0px;
+} */
+
+.coming-to-you {
+	color: white;
+	position: absolute;
+	font-size: 25px;
+	font-family: Raleway;
+	top: 44%;
+	left: 40%;
+	text-align: center;
+}
+
+.climate-change {
+	color: white;
+	font-weight: 600;
+	font-family: Raleway;
+	font-size: 4em;
+	position: absolute;
+	top: 43%;
+	left: 27%;
+	text-align: center;
+}
+
+.placeholder-text {
+	color: white;
+	margin: 170px;
+	font-size: 1.3em;
+	font-family: Raleway;
+	position: absolute;
+	top: 42%;
+	left: 4%;
+	text-align: center;
+}
+
+.button {
+	background-color: #e62b1e;
+	border: none;
+	font-family: Raleway;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 5%;
+	position: absolute;
+	bottom: 10%;
+	left: 47%;
+}
+
+.date {
+	color: #e62b1e;
+}
+
+@media only screen and (max-width: 770px) {
+	.LandingPage {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.coming-to-you {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.climate-change {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.placeholder-text {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.button {
+		width: 100%;
+	}
+}
